@@ -1,0 +1,34 @@
+version: '3.5'
+
+services:
+  app:
+    restart: always
+    build: .
+    expose:
+      - "8020"
+    ports:
+      - 8020:8000
+    volumes:
+      - ./app:/code/app
+    working_dir: /code/app
+    command: >
+      /root/.cache/pypoetry/virtualenvs/muser-py3.7/bin/python manage.py runserver 0.0.0.0:8000
+
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=passwudo
+  
+  mongoex: # interface for mongodb
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=root
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=passwudo
+      - ME_CONFIG_MONGODB_PORT=27017

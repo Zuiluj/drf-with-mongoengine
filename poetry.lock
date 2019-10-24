@@ -1,0 +1,163 @@
+[[package]]
+category = "main"
+description = "Python package for providing Mozilla's CA Bundle."
+name = "certifi"
+optional = false
+python-versions = "*"
+version = "2019.6.16"
+
+[[package]]
+category = "main"
+description = "Universal encoding detector for Python 2 and 3"
+name = "chardet"
+optional = false
+python-versions = "*"
+version = "3.0.4"
+
+[[package]]
+category = "main"
+description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
+name = "django"
+optional = false
+python-versions = ">=3.5"
+version = "2.2.4"
+
+[package.dependencies]
+pytz = "*"
+sqlparse = "*"
+
+[[package]]
+category = "main"
+description = "Django support for MongoDB via MongoEngine"
+name = "django-mongoengine"
+optional = false
+python-versions = "*"
+version = "0.3.3"
+
+[package.dependencies]
+django = ">1.11"
+mongoengine = ">=0.14"
+
+[[package]]
+category = "main"
+description = "Create a set of REST API endpoints for Authentication and Registration"
+name = "django-rest-auth"
+optional = false
+python-versions = "*"
+version = "0.9.5"
+
+[package.dependencies]
+Django = ">=1.8.0"
+djangorestframework = ">=3.1.3"
+six = ">=1.9.0"
+
+[[package]]
+category = "main"
+description = "MongoEngine support for Django Rest Framework."
+name = "django-rest-framework-mongoengine"
+optional = false
+python-versions = "*"
+version = "3.3.1"
+
+[[package]]
+category = "main"
+description = "Web APIs for Django, made easy."
+name = "djangorestframework"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "3.9.4"
+
+[[package]]
+category = "main"
+description = "Internationalized Domain Names in Applications (IDNA)"
+name = "idna"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.8"
+
+[[package]]
+category = "main"
+description = "MongoEngine is a Python Object-Document Mapper for working with MongoDB."
+name = "mongoengine"
+optional = false
+python-versions = "*"
+version = "0.18.2"
+
+[package.dependencies]
+pymongo = ">=3.4"
+six = "*"
+
+[[package]]
+category = "main"
+description = "Python driver for MongoDB <http://www.mongodb.org>"
+name = "pymongo"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
+version = "3.9.0"
+
+[[package]]
+category = "main"
+description = "World timezone definitions, modern and historical"
+name = "pytz"
+optional = false
+python-versions = "*"
+version = "2019.2"
+
+[[package]]
+category = "main"
+description = "Python HTTP for Humans."
+name = "requests"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "2.22.0"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+chardet = ">=3.0.2,<3.1.0"
+idna = ">=2.5,<2.9"
+urllib3 = ">=1.21.1,<1.25.0 || >1.25.0,<1.25.1 || >1.25.1,<1.26"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "1.12.0"
+
+[[package]]
+category = "main"
+description = "Non-validating SQL parser"
+name = "sqlparse"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.3.0"
+
+[[package]]
+category = "main"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+name = "urllib3"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
+version = "1.25.3"
+
+[metadata]
+content-hash = "d948183297f3aff5b28498af41ee6aa3147fb15282a51ade1a441e00bf1fa2d2"
+python-versions = "^3.7"
+
+[metadata.hashes]
+certifi = ["046832c04d4e752f37383b628bc601a7ea7211496b4638f6514d0e5b9acc4939", "945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695"]
+chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
+django = ["16a5d54411599780ac9dfe3b9b38f90f785c51259a584e0b24b6f14a7f69aae8", "9a2f98211ab474c710fcdad29c82f30fc14ce9917c7a70c3682162a624de4035"]
+django-mongoengine = ["c1b3ee7c1650955ec6d563292b915aed0c3deb455d5130b4e412fd2b1c22553c"]
+django-rest-auth = ["f11e12175dafeed772f50d740d22caeab27e99a3caca24ec65e66a8d6de16571"]
+django-rest-framework-mongoengine = ["55d91ff4f26a424ec78cbe562b34d77f14015efff54ebf0952d6d88d52bb640d", "80e9e56d10618214529c0bdf47339e9df8334be6b6d7cf3549617a339b64fe27"]
+djangorestframework = ["376f4b50340a46c15ae15ddd0c853085f4e66058f97e4dbe7d43ed62f5e60651", "c12869cfd83c33d579b17b3cb28a2ae7322a53c3ce85580c2a2ebe4e3f56c4fb"]
+idna = ["c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407", "ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"]
+mongoengine = ["9301ca84ada9377a200a50541f9be7d5308081bf2112049d00e1dd163f80b940", "fa3e73c966fca2b814cc1103ac4f55bcca7aae05028b112ef0cc8b321ee4a2f7"]
+pymongo = ["09f8196e1cb081713aa3face08d1806dc0a5dd64cb9f67fefc568519253a7ff2", "1be549c0ce2ba8242c149156ae2064b12a5d4704448d49f630b4910606efd474", "1f9fe869e289210250cba4ea20fbd169905b1793e1cd2737f423e107061afa98", "3653cea82d1e35edd0a2355150daf8a27ebf12cf55182d5ad1046bfa288f5140", "4249c6ba45587b959292a727532826c5032d59171f923f7f823788f413c2a5a3", "4ff8f5e7c0a78983c1ee07894fff1b21c0e0ad3a122d9786cc3745fd60e4a2ce", "56b29c638ab924716b48a3e94e3d7ac00b04acec1daa8190c36d61fc714c3629", "56ec9358bbfe5ae3b25e785f8a14619d6799c855a44734c9098bb457174019bf", "5b59bbde4eb417f3f9379f7b1a9de3669894f2bae9de933a836e2bffea2bbfa1", "5dca250cbf1183c3e7b7b18c882c2b2199bfb20c74c4c68dbf11596808a296da", "61101d1cc92881fac1f9ac7e99b033062f4c210178dc33193c8f5567feecb069", "7b4aea184e4868ebd4f9f786ffee14a1121bda5436ad04f6bcbacfa2147f8386", "86624c0205a403fb4fbfedef79c5b4ab27e21fd018fdb6a27cf03b3c32a9e2b9", "88ac09e1b197c3b4531e43054d49c022a3ea1281431b2f4980abafa35d2a5ce2", "8b0339809b12ea292d468524dd1777f1a9637d9bdc0353a9261b88f82537d606", "93dbf7388f6bf9af48dbb32f265b75b3dbc743a7a2ce98e44c88c049c58d85d3", "9b705daec636c560dd2d63935f428a6b3cddfe903fffc0f349e0e91007c893d6", "a090a819fe6fefadc2901d3911c07c76c0935ec5c790a50e9f3c3c47bacd5978", "a102b346f1921237eaa9a31ee89eda57ad3c3973d79be3a456d92524e7df8fec", "a13363869f2f36291d6367069c65d51d7b8d1b2fb410266b0b6b1f3c90d6deb0", "a409a43c76da50881b70cc9ee70a1744f882848e8e93a68fb434254379777fa3", "a76475834a978058425b0163f1bad35a5f70e45929a543075633c3fc1df564c5", "ad474e93525baa6c58d75d63a73143af24c9f93c8e26e8d382f32c4da637901a", "b268c7fa03ac77a8662fab3b2ab0be4beecb82f60f4c24b584e69565691a107f", "b67ec339b180acdbebcd03807ae4b1764a43e7069340fe860a60ac310b9d38be", "cca4e1ab5ba0cd7877d3938167ee8ae9c2986cc0e10d3dcc3243d664d3a83fec", "cef61de3f0f4441ec40266ff2ab42e5c16eaba1dc1fc6e1036f274621c52adc1", "e28153b5d5ca33d4ba0c3bbc0e1ff161b9016e5e5f3f8ca10d6fa49106eb9e04", "f30d7b37804daf0bab1143abc71666c630d7e270f5c14c5a7c300a6699c21108", "f70f0133301cccf9bfd68fd20f67184ef991be578b646e78441106f9e27cc44d", "fa75c21c1d82f20cce62f6fc4a68c2b0f33572ab406df1b17cd77a947d0b2993"]
+pytz = ["26c0b32e437e54a18161324a2fca3c4b9846b74a8dccddd843113109e1116b32", "c894d57500a4cd2d5c71114aaab77dbab5eabd9022308ce5ac9bb93a60a6f0c7"]
+requests = ["11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4", "9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31"]
+six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"]
+sqlparse = ["40afe6b8d4b1117e7dff5504d7a8ce07d9a1b15aeeade8a2d10f130a834f8177", "7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873"]
+urllib3 = ["b246607a25ac80bedac05c6f282e3cdaf3afb65420fd024ac94435cabe6e18d1", "dbe59173209418ae49d485b87d1681aefa36252ee85884c31346debd19463232"]
