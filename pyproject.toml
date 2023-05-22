@@ -7,7 +7,7 @@ authors = ["Zuiluj <julzllanillo@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 django = "^2.2.3"
-requests = "^2.22"
+requests = "^2.31"
 djangorestframework = "3.9.4" 
 django-rest-auth = "^0.9.5"
 mongoengine = "^0.18.2"
